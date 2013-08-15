@@ -4,7 +4,12 @@ Based on the [Glesys](http://glesys.com) [API documentation](https://github.com/
 # Example Usage
 
     var Glesys = require('glesys');
-    var api = Glesys({ });
+
+    var api = Glesys({
+      'customer_id': 'your customer-id',
+      'api_key': 'your api-key'
+    });
+
     api.server_list({}, function(err, list) {
       console.log(list);
     });
