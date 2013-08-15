@@ -6,7 +6,7 @@ Based on the [Glesys](http://glesys.com) [API documentation](https://github.com/
     var Glesys = require('glesys');
 
     var api = Glesys({
-      'customer_id': 'your customer-id',
+      'username': 'your username',
       'api_key': 'your api-key'
     });
 

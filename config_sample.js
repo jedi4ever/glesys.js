@@ -1,5 +1,5 @@
 var credentials = {
-  'customer_id': '',
+  'username': '',
   'api_key': ''
 }
 
